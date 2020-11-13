@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5C0BA4322551C8D9001A163D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C0BA4312551C8D9001A163D /* main.cpp */; };
 		5C0BA43B2551C995001A163D /* ordered_list_driver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C0BA4382551C995001A163D /* ordered_list_driver.cpp */; };
 		5C0BA43C2551C995001A163D /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C0BA4392551C995001A163D /* Node.cpp */; };
+		5C810F362554D45E00CA5428 /* OrderedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C810F342554D45E00CA5428 /* OrderedList.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,10 +26,11 @@
 
 /* Begin PBXFileReference section */
 		5C0BA42E2551C8D9001A163D /* Project2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Project2; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C0BA4312551C8D9001A163D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5C0BA4382551C995001A163D /* ordered_list_driver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ordered_list_driver.cpp; sourceTree = "<group>"; };
 		5C0BA4392551C995001A163D /* Node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
 		5C0BA43A2551C995001A163D /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		5C810F342554D45E00CA5428 /* OrderedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OrderedList.cpp; sourceTree = "<group>"; };
+		5C810F352554D45E00CA5428 /* OrderedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = OrderedList.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +66,8 @@
 				5C0BA4392551C995001A163D /* Node.cpp */,
 				5C0BA43A2551C995001A163D /* Node.h */,
 				5C0BA4382551C995001A163D /* ordered_list_driver.cpp */,
-				5C0BA4312551C8D9001A163D /* main.cpp */,
+				5C810F342554D45E00CA5428 /* OrderedList.cpp */,
+				5C810F352554D45E00CA5428 /* OrderedList.hpp */,
 			);
 			path = Project2;
 			sourceTree = "<group>";
@@ -128,7 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C0BA43C2551C995001A163D /* Node.cpp in Sources */,
-				5C0BA4322551C8D9001A163D /* main.cpp in Sources */,
+				5C810F362554D45E00CA5428 /* OrderedList.cpp in Sources */,
 				5C0BA43B2551C995001A163D /* ordered_list_driver.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
